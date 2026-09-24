@@ -43,8 +43,7 @@ if score == 2:
     strength = "Weak"
 if score == 1:
     strength = "Weak"
-
-improve = 
+    
 
 
 
@@ -58,4 +57,5 @@ print(f"Has a lowercase letter: {lowercase}")
 print(f"Has a number: {number}")
 print(f"Has a symbol: {symbol}")
 print(f"Your password strength is: {strength}")
-print(f"To make it Strong, add: {improve}")
+if score != 5:
+    print("To make it Strong, make sure you add a symbol, an uppercase letter, a number, 8 characters and a lowercase letter.")
