@@ -32,3 +32,22 @@ print("GOOSE!!!!")
 # Every item in your list must be seperated by a comma.
 # Every item in your list must have the correct data type.
 siblings = ["Isabella", "Julia", "Noemi"]
+
+print(siblings[2])
+print(siblings)
+#add to the list
+item = input("What needs to be added to the list: ")
+siblings.append("Jayshree")
+siblings.insert(3,item)
+#remove from list
+print(siblings)
+siblings.pop()
+print(siblings)
+
+# For Loops
+for number in range(1,11,2):
+    print(number)
+
+#family is the list name. Next to it we put the brakets [index # of item I want] remeber computers start counting at one.
+#.append(what is added to the list)
+# "action happening"

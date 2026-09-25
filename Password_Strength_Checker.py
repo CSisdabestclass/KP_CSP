@@ -22,8 +22,11 @@ for letter in password:
         symbol = True
 
 score = 0
+improve = ""
 if uppercase == True:
     score+=1
+else:
+    improve += "an uppercase letter"
 if lowercase == True:
     score+=1
 if Length == True:
@@ -44,7 +47,7 @@ if score == 2:
 if score == 1:
     strength = "Weak"
 
-improve = 
+
 
 
 
