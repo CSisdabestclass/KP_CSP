@@ -11,4 +11,4 @@ def cipher(message,shift):
             message += shift
             print(f"Your encrypted message is: {chr(message)}")
 
-cipher_1 = cipher("message")   g
+cipher_1 = cipher("message")   
