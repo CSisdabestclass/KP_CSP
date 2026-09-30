@@ -5,6 +5,8 @@
 # round()
 # len()
 # print()
+# chr turns a number into a letter
+# ord turns a letter into a number
 
 # Variable
 income = float(input("What is your monthly income?"))
