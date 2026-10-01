@@ -1,7 +1,7 @@
 # KP Number Guessing Game
 import random
 
-number = random.randint(0, 100)
+number = random.randint(1, 100)
 right = 0
 score = 1
 
