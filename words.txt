@@ -1,0 +1,10 @@
+cat
+dog
+mouse
+house
+sun
+tree
+plane
+school
+family
+computer
