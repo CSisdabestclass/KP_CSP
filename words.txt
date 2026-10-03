@@ -8,3 +8,7 @@ plane
 school
 family
 computer
+bike
+snake
+lion
+clock
