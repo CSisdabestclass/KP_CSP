@@ -16,7 +16,7 @@ try:
 
 except FileNotFoundError:
     wins = 0
-    losses = 0
+    losses = 0 
 
 wrong_guesses = 0
 guessed_letters = []
