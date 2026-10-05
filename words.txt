@@ -1,14 +1,1 @@
-cat
-dog
-mouse
-house
-sun
-tree
-plane
-school
-family
-computer
-bike
-snake
-lion
-clock
+cat,dog,mouse,house,sun,tree,plane,school,family,computer
