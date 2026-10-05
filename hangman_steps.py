@@ -5,17 +5,21 @@
 #done
 
 # create another file holdswin/loss counts
-# 
+# done
 
 # Use split(",") on the content of the words txt document to create your list of words.
-
+#done
 
 # Pull win and lose totals from the other txt file and save them as 2 seperate variables.
+#done
 
 #Build the hangman game
 
 #Save the correct word as a variable random.choice(name of the list)
+#done
+
 #number of wrong guesses
+
 #What letters have been guessed
 
 
