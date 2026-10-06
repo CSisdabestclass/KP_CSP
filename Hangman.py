@@ -1,20 +1,14 @@
-# KP, Hangman
-
 import random
 
 with open("words.txt", "r") as file:
     words = file.read().split(",")
 
-try:
-    with open("stats.txt", "r") as file:
-        stats = file.read().split(",")
 
-    wins = int(stats[0])
-    losses = int(stats[1])
+with open("stats.txt", "r") as file:
+    stats = file.read().split(",")
 
-except FileNotFoundError:
-    wins = 0
-    losses = 0 
+wins = int(stats[0])
+losses = int(stats[1])
 
 secret_word = random.choice(words)
 
